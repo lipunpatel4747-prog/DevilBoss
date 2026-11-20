@@ -1,4 +1,4 @@
-name: Build KSA APK
+name: Build ABC APK
 
 on:
   push:

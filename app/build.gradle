@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ksa.app'
+    namespace 'com.Abc.app'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.ksa.app"
+        applicationId "com.Abc.app"
         minSdk 24
         targetSdk 33
         versionCode 1

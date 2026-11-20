@@ -24,7 +24,3 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
-dependencies {
-    // Koi extra library nahi chahiye, app halki aur fast rahegi
-}

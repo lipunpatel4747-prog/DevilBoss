@@ -11,11 +11,10 @@ public class HudActivity extends Activity {
         super.onCreate(savedInstanceState);
         
         WebView webView = new WebView(this);
-        webView.getSettings().setJavaScriptEnabled(true); // JS enable kiya
+        webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
         setContentView(webView);
         
-        // HTML file load karo
         webView.loadUrl("file:///android_asset/hud.html"); 
     }
 }

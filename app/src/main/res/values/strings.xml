@@ -1,5 +1,0 @@
-<resources>
-    <style name="Theme.AppCompat.Light.NoActionBar" parent="android:Theme.Material.Light.NoActionBar">
-        <!-- Ye default android theme use karega, koi AppCompat library ki zaroorat nahi -->
-    </style>
-</resources>

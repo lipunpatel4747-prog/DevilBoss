@@ -1,15 +1,21 @@
 package com.abc.app;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
-import androidx.appcompat.app.AppCompatActivity;
+import android.webkit.WebViewClient;
 
-public class HudActivity extends AppCompatActivity {
+public class HudActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         WebView webView = new WebView(this);
+        webView.getSettings().setJavaScriptEnabled(true); // JS enable kiya
+        webView.setWebViewClient(new WebViewClient());
         setContentView(webView);
-        webView.loadUrl("file:///android_asset/hud.html"); // Loads your HTML file
+        
+        // HTML file load karo
+        webView.loadUrl("file:///android_asset/hud.html"); 
     }
 }

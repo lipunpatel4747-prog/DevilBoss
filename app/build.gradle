@@ -26,5 +26,5 @@ android {
 }
 
 dependencies {
-    // Abhi koi extra library nahi chahiye
+    // Koi extra library nahi chahiye, app halki aur fast rahegi
 }

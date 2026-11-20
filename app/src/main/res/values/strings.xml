@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ABC App</string>
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Ye default android theme use karega, koi AppCompat library ki zaroorat nahi -->
+    </style>
 </resources>

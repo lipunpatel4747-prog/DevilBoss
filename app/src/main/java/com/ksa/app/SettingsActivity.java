@@ -1,4 +1,4 @@
-package com.ksa.app;
+package com.abc.app;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;

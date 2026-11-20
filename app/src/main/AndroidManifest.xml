@@ -7,7 +7,7 @@
 
     <application
         android:allowBackup="true"
-        android:label="KSA App"
+        android:label="ABC App"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">

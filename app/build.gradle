@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.Abc.app'
+    namespace 'com.abc.app'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.Abc.app"
+        applicationId "com.abc.app"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -17,7 +17,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -27,7 +26,5 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    // Abhi koi extra library nahi chahiye
 }
